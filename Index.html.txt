@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Prezentare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Bine ai venit!</h1>
+        <p>O scurtă descriere a afacerii tale.</p>
+        <a href="#servicii" class="btn">Află mai mult</a>
+    </header>
+
+    <!-- DESPRE NOI -->
+    <section id="despre" class="section">
+        <h2>Despre Noi</h2>
+        <p>
+            Aici poți adăuga o descriere scurtă despre compania ta, misiunea și valorile tale.
+        </p>
+    </section>
+
+    <!-- SERVICII -->
+    <section id="servicii" class="section services">
+        <h2>Serviciile Noastre</h2>
+        <div class="service-box">
+            <h3>Serviciu 1</h3>
+            <p>Descriere scurtă a serviciului.</p>
+        </div>
+        <div class="service-box">
+            <h3>Serviciu 2</h3>
+            <p>Descriere scurtă a serviciului.</p>
+        </div>
+        <div class="service-box">
+            <h3>Serviciu 3</h3>
+            <p>Descriere scurtă a serviciului.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Nume" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mesaj" required></textarea>
+            <button type="submit" class="btn">Trimite</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Site de prezentare – Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
